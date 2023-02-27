@@ -86,24 +86,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <h2 id="Model-Architectures-模型结构"><a href="#Model-Architectures-模型结构" class="headerlink" title="Model Architectures 模型结构"></a>Model Architectures 模型结构</h2><h3 id="Artificial-neurons"><a href="#Artificial-neurons" class="headerlink" title="Artificial neurons"></a>Artificial neurons</h3><p>1、Pre-activation(接受刺激):z(x)=<br>以一定的权重接受来自不同神经元的刺激<br>2、Output-activation(激活神经元): a(x)<br>相当于激活函数，并不涉及到参数</p>
+<h3 id="Activation-Function"><a href="#Activation-Function" class="headerlink" title="Activation Function"></a>Activation Function</h3><p>-Linear-activation function<br>恒等(identity)变换<br>f(z) = z<br>-Sigmod activation function<br>Squashes the neuron’s output to (0,1)<br>f(z) =<br>-Hyperbolic Tangent(tanh) function<br>Squashes the neuron’s output to (-1,1)<br>why negative?<br>-ReLU<br>sparse 并不是所有神经元都会输出信号<br>No upper-bound But weakly increase<br>-Softmax activation function<br>Sigmod的 多分类 泛化</p>
+<h4 id="Charasteristics"><a href="#Charasteristics" class="headerlink" title="Charasteristics"></a>Charasteristics</h4><p>-连续可导(允许少部分点上不可导)的非线性函数<br>-激活函数及其导函数尽可能简单–提高网络计算效率<br>-激活函数的导函数的值域要在一个合适的区间内<br>-(weakly)单调递增</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/02/26/paper1/" data-id="clelhoni20000asuwa2v36fov" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/02/26/paper1/" data-id="cleme5q7s0001jwuw8a1x26dd" class="article-share-link">Share</a>
       
       
     </footer>
@@ -152,7 +142,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/02/26/hello-world/" data-id="clelgtl3t0000okuw0zgfe99g" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/02/26/hello-world/" data-id="cleme5q7c0000jwuwf84xhq51" class="article-share-link">Share</a>
       
       
     </footer>
